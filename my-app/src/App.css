@@ -1,0 +1,41 @@
+.info{
+  width: 250px;
+  border: 2px solid black;
+  margin: 10px 0;
+}
+
+.count-container{
+  border: 3px solid orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.count-container .btn{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count-container .minus-btn{
+  border-color: red;
+  color: red;
+}
+.count-container .plus-btn{
+  border-color: green;
+  color: green;
+}
+.count-container h1{
+  min-width: 43px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
