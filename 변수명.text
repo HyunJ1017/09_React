@@ -1,0 +1,78 @@
+java
+
+dto
+회원 MEMBER
+memberNo
+memberName
+*memberNickname
+memberId
+memberPw
+memberEmail
+memberPhone
+memberLevel
+memberPoint
+artistReg
+memberDelFl
+
+작가 ARTIST
+memberNo
+artistProfile
+artistNickname
+artistPortfolio
+artistLevel
+artistPoint
+
+작품 PIECE
+pieceNo
+memberNo
+pieceRename
+pieceTitle
+pieceDetail
+categori
+sizeX
+sizeY
+regDate
+startDate
+startPrice
+
+경매 Auction
+pieceNo
+endDate
+endPrice
+bidDate
+memberNo
+
+알림 NOTIFICATION
+notiNo
+memberNo
+readCheck
+notiContent
+
+배송 DELIVERY
+deliveryNo
+pieceNo
+invoice
+deliveryStatus
+
+팔로우 FOLLOW
+memberNo
+follower
+
+
+위시리스트 WISH_LIST
+memberNo
+following
+
+
+[css]
+.#main..
+.#header..
+.#footer..
+
+
+[js]
+해더
+memberNo
+<script th:inline='javascript'>
+  const memberNo = /*[[${session.loginMember.memberNo}]]*/'로그인회원';
+</script>
